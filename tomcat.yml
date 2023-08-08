@@ -1,0 +1,70 @@
+---
+- hosts: Dev
+
+  become: yes
+
+  tasks:
+
+    - name: install the latest version of java
+      yum:
+        name: java-11-openjdk
+        state: latest
+
+    - name: Create tomcat group
+      group:
+        name: tomcat
+        state: present
+
+
+    - name: create a tomcat user
+      user:
+         name: tomcat
+         shell: /bin/false
+         group: tomcat
+
+
+    - name: Create a tomcat directory and Grant permission
+      file:
+           path: /opt/tomcat
+           state: directory
+           mode: '0755'
+           owner: tomcat
+           group: tomcat
+           recurse: yes
+
+    - name: Ensure firewalld is started
+      systemd:
+           name: firewalld
+           state: started
+           enabled: true
+
+    - name: Firewalld to open the required port
+      firewalld:
+             port: 8080/tcp
+             permanent: yes
+             immediate: yes
+             state: enabled
+             zone: public 
+
+
+    - name: Download tomcat
+      get_url:
+              url: https://downloads.apache.org/tomcat/tomcat-9/v9.0.76/bin/apache-tomcat-9.0.76.tar.gz   
+              dest: /opt/tomcat
+
+
+    - name: Unarchive a file that is already on the remote machine
+      unarchive:
+             src: "/opt/tomcat/apache-tomcat-9.0.76.tar.gz"
+             dest: /opt/tomcat/
+             remote_src: yes
+             mode: 0755
+             owner: tomcat
+             group: tomcat
+
+    - name: Remove file(delete file)
+      file: 
+         path: /opt/tomcat/apache-tomcat-9.0.76.tar.gz
+         state: absent
+
+

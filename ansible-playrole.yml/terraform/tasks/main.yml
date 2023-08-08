@@ -1,0 +1,21 @@
+---
+# tasks file for terraform
+
+  - name: add yum-utils
+    yum:
+     name: yum-utils
+     state: latest
+
+  - name: Add repository
+    ansible.builtin.yum_repository:
+      name: epel
+      description: EPEL YUM repo
+      baseurl: https://rpm.releases.hashicorp.com/RHEL/$releasever/$basearch/test
+      gpgcheck: no
+
+
+  - name: install terraform
+    yum: 
+     name: terraform
+     state: latest
+

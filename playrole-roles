@@ -1,0 +1,15 @@
+---
+- name: this is ansible role
+
+  hosts: Dev
+
+
+  become: yes
+
+  roles:
+   
+     - /home/ansib/ansible-playrole.yml/terraform
+     - /home/ansib/ansible-playrole.yml/patching
+     - /home/ansib/ansible-playrole.yml/firewalld
+     - /home/ansib/ansible-playrole.yml/tomcat/
+  #  - /home/ansib/ansible-playrole.yml/jenkins

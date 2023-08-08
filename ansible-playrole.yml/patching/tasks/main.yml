@@ -1,0 +1,6 @@
+---
+# tasks file for patching
+   - name: upgrade all packages
+     yum:
+       name: '*'
+       state: latest

@@ -1,0 +1,10 @@
+---
+# tasks file for jenkins
+  - name: download jenkins
+    get_url:
+     url: "{{ jenkins_pkg }}"
+     dest: "{{ webapps_link }}"
+     owner: root
+     group: root
+     mode: 0755
+

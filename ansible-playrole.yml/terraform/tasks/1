@@ -1,0 +1,22 @@
+---
+# tasks file for terraform
+
+ - name: add yum-utils
+   yum:
+    name: yum-utils
+    state: latest
+
+
+ - name: Add EPEL repository
+   yum_repository:
+     name: epel
+     description: EPEL YUM repo
+     baseurl: https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+     gpgcheck: no
+     enabled: yes
+
+ - name: install terraform
+   yum:
+    name: terraform
+
+

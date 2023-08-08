@@ -1,0 +1,78 @@
+---
+ - hosts: Dev
+
+   become: true
+
+   tasks:
+
+
+   - name: update packages
+     yum:
+         name: '*'
+         state: latest
+
+
+   - name: install the latest version of Apache
+     yum:
+        name: httpd24
+        state: latest
+
+
+   - name: install the latest version of PHP
+     yum:
+        name: php72
+        state: latest
+
+   - name: install the latest version of Database
+     yum:
+        name: mysql57-server
+        state: latest
+
+   - name: install the latest version of
+     yum:
+        name: php72-mysqlnd
+        state: latest
+  
+
+   - name: start Apache service
+     service:
+        name: httpd
+        state: started
+        enabled: true
+
+   - name: install firewall
+     yum:
+        name: firewalld
+        state: latest
+
+   - name: install the latest version of Apache
+     firewalld:
+        port: 80/tcp
+        permanent: yes
+        immediate: yes
+        state: enabled
+         zone: public
+     
+   - name: Create group membership for apache
+     group:
+        name: apache
+         state: present
+
+   - name: install the latest version of Apache
+      user:
+         name: ec2-user
+         shell: /bin/false
+         home: /opt/apache
+         state: latest
+          group: apache
+
+   - name: install the latest version of Apache
+     file:
+         path: /var/www
+         owner: ec2-user
+         group: apache
+         mode: '2775':
+           
+
+
+

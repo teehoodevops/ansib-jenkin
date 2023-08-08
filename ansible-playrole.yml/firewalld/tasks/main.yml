@@ -1,0 +1,21 @@
+---
+# tasks file for firewalld
+- name : install forewalld
+  yum:
+    name: firewalld
+    state: latest
+
+- name: 
+  systemd:
+    name: firewalld
+    state: started
+    enabled: true
+
+- name: firewalld to open port
+  firewalld:
+    port: 8080/tcp
+    permanent: yes
+    immediate: yes
+    state: enabled
+    zone: public
+
