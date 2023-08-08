@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1690991839,,"wq!"
+|2,0,1691529939,,"wq!"
 :q!
 |2,0,1690844751,,"q!"
 :set nu!
@@ -86,36 +86,50 @@ $
 |3,0,36,0,1,0,1689204422,"s"
 
 # File marks:
-'0  16  40  ~/ansible-playrole.yml/tomcat/files/tomcat.service
-|4,48,16,40,1690991839,"~/ansible-playrole.yml/tomcat/files/tomcat.service"
-'1  38  60  ~/ansible-playrole.yml/tomcat/tasks/main.yml
-|4,49,38,60,1690991670,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
-'2  25  45  ~/ansible-playrole.yml/tomcat/vars/main.yml
-|4,50,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
-'3  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
-|4,51,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+'0  1  45  ~/.git/COMMIT_EDITMSG
+|4,48,1,45,1691529939,"~/.git/COMMIT_EDITMSG"
+'1  16  40  ~/ansible-playrole.yml/tomcat/files/tomcat.service
+|4,49,16,40,1690991839,"~/ansible-playrole.yml/tomcat/files/tomcat.service"
+'2  38  60  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,50,38,60,1690991670,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+'3  25  45  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,51,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
 '4  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
 |4,52,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
-'5  15  3  ~/playrole-roles
-|4,53,15,3,1690990826,"~/playrole-roles"
-'6  16  2  ~/playrole-roles
-|4,54,16,2,1690990759,"~/playrole-roles"
-'7  6  0  ~/teller
-|4,55,6,0,1690990696,"~/teller"
-'8  1  54  ~/vars.yml
-|4,56,1,54,1690845093,"~/vars.yml"
-'9  1  58  ~/vars.yml
-|4,57,1,58,1690844985,"~/vars.yml"
+'5  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,53,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+'6  15  3  ~/playrole-roles
+|4,54,15,3,1690990826,"~/playrole-roles"
+'7  16  2  ~/playrole-roles
+|4,55,16,2,1690990759,"~/playrole-roles"
+'8  6  0  ~/teller
+|4,56,6,0,1690990696,"~/teller"
+'9  1  54  ~/vars.yml
+|4,57,1,54,1690845093,"~/vars.yml"
 
 # Jumplist (newest first):
+-'  1  45  ~/.git/COMMIT_EDITMSG
+|4,39,1,45,1691529939,"~/.git/COMMIT_EDITMSG"
 -'  16  40  ~/ansible-playrole.yml/tomcat/files/tomcat.service
 |4,39,16,40,1690991839,"~/ansible-playrole.yml/tomcat/files/tomcat.service"
+-'  16  40  ~/ansible-playrole.yml/tomcat/files/tomcat.service
+|4,39,16,40,1690991839,"~/ansible-playrole.yml/tomcat/files/tomcat.service"
+-'  22  0  ~/ansible-playrole.yml/tomcat/files/tomcat.service
+|4,39,22,0,1690991803,"~/ansible-playrole.yml/tomcat/files/tomcat.service"
 -'  22  0  ~/ansible-playrole.yml/tomcat/files/tomcat.service
 |4,39,22,0,1690991803,"~/ansible-playrole.yml/tomcat/files/tomcat.service"
 -'  38  60  ~/ansible-playrole.yml/tomcat/tasks/main.yml
 |4,39,38,60,1690991670,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
 -'  38  60  ~/ansible-playrole.yml/tomcat/tasks/main.yml
 |4,39,38,60,1690991670,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  38  60  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,38,60,1690991670,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  38  60  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,38,60,1690991670,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,97,27,1690991644,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,97,27,1690991644,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
 -'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
 |4,39,97,27,1690991644,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
 -'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
@@ -128,6 +142,14 @@ $
 |4,39,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
 -'  25  45  ~/ansible-playrole.yml/tomcat/vars/main.yml
 |4,39,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  25  45  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  25  45  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  25  45  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  25  45  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,25,45,1690991558,"~/ansible-playrole.yml/tomcat/vars/main.yml"
 -'  4  0  ~/ansible-playrole.yml/tomcat/vars/main.yml
 |4,39,4,0,1690991516,"~/ansible-playrole.yml/tomcat/vars/main.yml"
 -'  4  0  ~/ansible-playrole.yml/tomcat/vars/main.yml
@@ -136,6 +158,22 @@ $
 |4,39,4,0,1690991516,"~/ansible-playrole.yml/tomcat/vars/main.yml"
 -'  4  0  ~/ansible-playrole.yml/tomcat/vars/main.yml
 |4,39,4,0,1690991516,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  4  0  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,4,0,1690991516,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  4  0  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,4,0,1690991516,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  4  0  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,4,0,1690991516,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  4  0  ~/ansible-playrole.yml/tomcat/vars/main.yml
+|4,39,4,0,1690991516,"~/ansible-playrole.yml/tomcat/vars/main.yml"
+-'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
 -'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
 |4,39,97,27,1690991501,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
 -'  97  27  ~/ansible-playrole.yml/tomcat/tasks/main.yml
@@ -156,6 +194,50 @@ $
 |4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
 -'  81  13  ~/ansible-playrole.yml/tomcat/tasks/main.yml
 |4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  81  13  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  81  13  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  81  13  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  81  13  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  81  13  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  81  13  ~/ansible-playrole.yml/tomcat/tasks/main.yml
+|4,39,81,13,1690991277,"~/ansible-playrole.yml/tomcat/tasks/main.yml"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
+-'  15  3  ~/playrole-roles
+|4,39,15,3,1690990826,"~/playrole-roles"
 -'  15  3  ~/playrole-roles
 |4,39,15,3,1690990826,"~/playrole-roles"
 -'  15  3  ~/playrole-roles
@@ -220,96 +302,21 @@ $
 |4,39,16,2,1690990759,"~/playrole-roles"
 -'  16  2  ~/playrole-roles
 |4,39,16,2,1690990759,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  12  3  ~/playrole-roles
-|4,39,12,3,1690990747,"~/playrole-roles"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
--'  6  0  ~/teller
-|4,39,6,0,1690990696,"~/teller"
+-'  16  2  ~/playrole-roles
+|4,39,16,2,1690990759,"~/playrole-roles"
+-'  16  2  ~/playrole-roles
+|4,39,16,2,1690990759,"~/playrole-roles"
+-'  16  2  ~/playrole-roles
+|4,39,16,2,1690990759,"~/playrole-roles"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1691529938	0
+	"	1	45
+	^	1	46
+	.	1	45
+	+	1	45
 
 > ~/ansible-playrole.yml/tomcat/files/tomcat.service
 	*	1690991837	0
@@ -736,10 +743,3 @@ $
 	^	26	10
 	.	26	9
 	+	26	9
-
-> ~/ansible-playrole.yml/tomcat/files/tomcat
-	*	1689103568	0
-	"	62	14
-	^	62	15
-	.	62	14
-	+	62	14
