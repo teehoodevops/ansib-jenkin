@@ -58,20 +58,14 @@
         name: apache
          state: present
 
-   - name: install the latest version of Apache
-      user:
-         name: ec2-user
-         shell: /bin/false
-         home: /opt/apache
-         state: latest
-          group: apache
+  
 
    - name: install the latest version of Apache
      file:
          path: /var/www
          owner: ec2-user
          group: apache
-         mode: '2775':
+         mode: '2775'
            
 
 
